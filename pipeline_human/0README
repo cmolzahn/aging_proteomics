@@ -1,0 +1,22 @@
+TO RUN:
+you need bash and R, with several packages
+library(plotrix)
+library(grid)
+library(gridExtra)
+library(scales)
+library(ggplot2)
+
+[~]./mk_foo.sh > foo.R
+[~] R < foo.R --vanilla
+
+Will make plots, pval, and aa for different groups:
+foo_data.pdf, foo_pval.pdf, foo_aa.pdf
+
+KNOWN ISSUES:
+- There are a BUNCH of warnings in the vioplots, assuming that's the NAs
+- The AA plots don't have p-values. SO no pval==no pvalcorection.  
+- I have to check the interactions to see if I corrected double counting
+- Added barplot p-vals, didn't really check over from mouse, but ran and it worked.
+
+MAJOR NOTES:
+-Optimized scripts to make them easier to change HOWEVER a person NEEDS to name the source file (src/foo.txt) how they want it to display in plot and have it with a txt extension
