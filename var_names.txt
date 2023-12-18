@@ -1,0 +1,49 @@
+var	nam
+dis	percent intrinsic protein disorder
+len	amino acid sequence length
+run	number of disordered patches (30+aa's)
+max	Longest disordered region
+chg	Percent of amino acids that are charged (classical charges)
+net	Net charge (classical charges added)
+abd	Abundance
+gvy	Gravy
+pip	PScore
+tgo	Tango rawiscore
+iac	BioGrid interaction count at the Affinity Capture level
+mfc	Number of MoRF regions
+csl	Camsol Score
+sol	SoluProt Score
+sto	Number of Tango sections
+stc	Total AA's in Tango Sections
+ssa	Percent Alpha Helix Predicted (SCRATCH)
+ssb	Percent Beta Sheet Predicted (SCRATCH) 
+ssc	Percent Coil Predicted (SCRATCH)
+sft	Total Animo Acid Softness
+scn	Charge Discription Metric (Pappu)
+sbb	Softness of Backbone (Susan)
+pol	Percent Polar Residues
+pap	PAPA Score (Aggregation)
+plc	PlAAC (Amyloid Prediction)
+rna	Annotated RNA-binding protein (0/1)
+rbp	RNA-binding score by RBPPred
+yrd	Y to R average Separation distance across normalized distance
+tmx	Melting temp
+toh	Turnover (neurons)
+tom	Turnover (brain)
+phs	Phosphorylation sites
+mag	MaGS
+oxi	Oximouse
+prW	Prion W
+coc	Corum complexes
+ppf	Percent Pfam
+pfm	pfam raw
+abd_log	Log Abundance
+pap_cnt	Bar plot metric (calculated, not in pval)
+prW_cnt	Bar plot metric (calculated, not in pval)
+plc_cnt	Bar plot metric (calculated, not in pval)
+abd_log_cen	calculated, for supersaturation
+abd_log_nrm	calculated, for supersaturation
+csl_cen	calculated, for supersaturation
+csl_nrm	calculated, for supersaturation
+tsl	Tango sections length normalized
+sst	Supersaturation score
